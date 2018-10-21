@@ -11,8 +11,8 @@ void setup() {
 }
 
 void loop() {
-  boolean laser = digitalRead(DETECTOR);
-  if(laser)
+  boolean signal = digitalRead(DETECTOR);
+  if(signal)
   {
     open_led();
     delay(2000);
